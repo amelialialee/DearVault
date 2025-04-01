@@ -1,0 +1,39 @@
+{
+    "features": [
+      {
+        "title": "> Creating a Capsule <",
+        "description": "To create a capsule, navigate to 'New Capsule'. Enter a title for your capsule, write your message, and set the unlock date. Optionally, you can upload up to 5 images to accompany your capsule. To add a receiver, choose 'Add' from your friend list or search for users by entering their full email or username. Once everything is set, click 'Create' to send your capsule!"
+      },
+      {
+        "title": "> Adding Friends <",
+        "description": "You can add friends to send capsules to and share heartfelt messages with them. To add a friend, navigate to 'Contacts', enter their username or email in 'Search User',  and click the 'Add' button next to the user you want to add as a friend. Once done, you can view your contact list by clicking the 'CONTACTS' button at the top right corner of the panel. To remove friends, simply select the 'Remove' button next to the friend you wish to remove."
+      },
+      {
+        "title": "> Viewing Capsules <",
+        "description": "To view your capsules, go to 'My Capsules'. From there, select the top right button to see the capsules you've created or received. You can also use the filter to hide locked or unlocked capsules. To view details, click 'Click to View', and select any image (if any) to view it in full. To delete a capsule, click the 'Delete' button at the bottom."
+      },
+      {
+        "title": "> Incoming / Scheduled Capsules <",
+        "description": "To view incoming capsules, navigate to 'Scheduled'. All capsules awaiting to be unlocked will be displayed accordingly. Tip: The 'NOTIFICATIONS' panel shows the closest capsule to be unlocked (if any)."
+      },
+      {
+        "title": "> Changing Themes <",
+        "description": "Click the 'sun' icon at the top to toggle between the three available themes."
+      },
+      {
+        "title": "> Deleting Capsules <",
+        "description": "Capsule will be permanantly deleted if all holders (receivers & creator) delete the Capsule"
+      }
+    ],
+    "commonQA": [
+      {
+        "question": "> Why Create a Capsule? <",
+        "description": "Creating a capsule allows you to express your thoughts, emotions, or memories in a truly meaningful way. Whether it's for self-reflection or sending heartfelt messages to others, it provides a unique opportunity to strengthen connections and preserve moments that matter most. A capsule is more than just words—it's a timeless keepsake, a chance to share your story with the future, and a beautiful way to connect with loved ones across time."
+      },
+      {
+        "question": "> What can I write? <",
+        "description": "You can write anything meaningful to you! Whether it’s a personal reflection, a heartfelt message to a friend, or a special memory you want to preserve, a capsule is your space to express your thoughts. You can record milestones (like birthdays or anniversaries), share advice, or personal reflections and goals. The possibilities are endless, making it a beautiful way to capture moments, emotions, and experiences you want to keep or share with others."
+      }
+    ]
+  }
+  

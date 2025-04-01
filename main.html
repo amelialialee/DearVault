@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Send thoughtful messages to your future self or loved ones. The Vault stores your words, photos, and memories for the perfect moment">
+    <link href="public/styles/index.css" rel="stylesheet">
+    <meta name="author" content="Amelia Lee">
+    <title>Dear Vault</title>
+    <link rel="icon" href="public/styles/images/icon.png">
+</head>
+<body>
+  <!-- Login Page / Sign up Page -->
+  <div class="login-container">
+    <div class="login-box">
+      <h2 id="loginFormTitle">Login</h2>
+      <form id="loginForm">
+        <div class="loginField">
+          <label for="username" class="formLabel">Username</label>
+          <input type="text" id="username" class="formInput" placeholder="Enter your username" required>
+        </div>
+        <div class="loginField">
+          <label for="password" class="formLabel">Password</label>
+          <input type="password" id="password" class="formInput" placeholder="Enter your password" required>
+        </div>
+        <button type="submit" class="submitButton" id="loginButton">Login</button>
+      </form>
+      <form id="signupForm">
+        <div class="loginField">
+          <label for="newUsername" class="formLabel" autocomplete="off">Username</label>
+          <input type="text" id="newUsername" class="formInput" placeholder="Choose a username" required>
+        </div>
+        <div class="loginField">
+          <label for="email" class="formLabel">Email</label>
+          <input type="email" id="email" class="formInput" placeholder="Enter your email" required>
+        </div>
+        <div class="loginField">
+          <label for="newPassword" class="formLabel">Password</label>
+          <input type="password" id="newPassword" class="formInput" placeholder="Choose a password" required>
+        </div>
+        <button type="submit" class="submitButton" id="signupButton">Sign Up</button>
+      </form>
+      <p class="accountText">
+        <a href="#" id="toggleForm">Don't have an account? Sign up</a>
+      </p>
+    </div>
+  </div>
+
+  <!-- Application Page (Hidden initially) -->
+  <div class="main-container">
+    <div class="main-container2">
+        
+      <!-- Header -->
+      <section class="headerSection">
+        <div class="fluidContainer">
+          <div class="grid-container"> 
+
+            <div class="grid-item-1"> 
+              <div class="nested-grid"> 
+                <div class="sub-item-1"> 
+                  <button id="themeBtn" class="headerBtn">
+                    <h3>☀️</h3>
+                  </button>
+                </div>
+                <div class="sub-item-2"> 
+                  <button id="helpBtn" class="headerBtn">
+                    <h3>❔</h3>
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="grid-item-2"> 
+              <div class="titleContainer" id="titleContainer">
+                <h2 class="titleFont">・₊✧ D E A R ・₊  V A U L T ♡₊˚</h2>
+              </div>
+            </div>
+
+            <div class="grid-item-3"> 
+              <button id="signOutBtn" class="headerBtn">
+                <h3>SIGN OUT</h3>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <!-- Main Contents -->
+      <div class="mainContainer"> 
+        <div class="grid-container">
+
+          <div class="grid-item-4"> 
+            <div id="mainPanel">
+              <h2 class="mainPanelHeader" style="padding: 0 3%; margin-bottom: 3%;">WELCOME</h2>
+              <p style="text-align: center; padding: 0 5%;">
+                We're so glad you're here! Step into a world where past, present, and future intertwine. Here, you can preserve the moments that matter 
+                and share them when the time is right. Whether it’s a heartfelt message, a cherished photo, or a vision for the future, your capsule keeps 
+                it safe until the perfect moment arrives.<br>Take your time to explore—this is your story, sealed and protected.
+              </p>
+              <small style="text-align: center; color: grey; font-style: italic;">New user? Need some help? Click on the ' ? ' for help.</small>
+            </div>
+          </div>
+
+          <div class="grid-item-5">
+            <div class="sidePanel">
+
+              <div id="contactsLibraryBtn" class="sideTabs">
+                <h4>Contacts</h4>
+              </div>
+
+              <div id="createCapsuleBtn" class="sideTabs">
+                <h4>New Capsule</h4>
+              </div>
+              
+              <div id="ongoingCapsuleBtn" class="sideTabs">
+                <h4>Scheduled</h4>
+              </div>
+              
+              <div id="capsuleLibraryBtn" class="sideTabs">
+                <h4>My Capsules</h4>
+              </div>
+
+              <div id="notificationContainer" class="notificationPanel">
+                <h4>NOTIFICATIONS</h4>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script type="module" src="public/scripts/index.js" charset="UTF-8"></script>
+</body>
+</html>
