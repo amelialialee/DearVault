@@ -380,8 +380,12 @@ body.dark-theme {
   }
 
   .notifCapsuleTitle {
-    font-size: xx-large !important;
+    font-size: x-large !important;
   }
+   h2.titleFont {
+    display: none;
+  }
+
 
 }
 
@@ -899,7 +903,7 @@ body.dark-theme {
 
 h2.titleFont {
   white-space: nowrap;
-  font-size: clamp(2rem, 2.5vw, 3rem);
+  font-size: clamp(1rem, 2.5vw, 3rem);
   margin: 0;
 }
 
