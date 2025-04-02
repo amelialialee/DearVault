@@ -73,7 +73,7 @@ Database: JSON-File storage & Local Storage
  │   │   ├── 📂 images/  # All images in here
  │   │   ├── index.css  
  │
- ├── main.html          # Main HTML file
+ ├── index.html          # Main HTML file
  ├── README.txt         # Project documentation
 
 --------------------------------------------------------------------------------------
