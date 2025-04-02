@@ -325,7 +325,7 @@ document.getElementById('signupForm').addEventListener('submit', async function 
       friends: [], 
       userCapsule: [], 
       createdCapsule: [], 
-      theme: 1 
+      theme: 0 
     };
 
     localStorage.setItem('users', JSON.stringify(users)); // Save the updated users object back to localStorage
