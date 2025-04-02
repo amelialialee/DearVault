@@ -80,12 +80,19 @@ Database: JSON-File storage & Local Storage
 4. 🚀 Installation & Run
 --------------------------------------------------------------------------------------
 OPTION 1: Clone the Repository
+a. Clone the repository:
+git clone https://github.com/amelialialee/DearVault.git
 
-git clone 
-cd 
+b. Navigate to the project folder:
+cd DearVault
+
+c. Open the main.html file:
+Double-click on the main.html file to open it in your browser.
+OR
+Use the following command to open it in Chrome:
+start chrome main.html
 
 OPTION 2: Use Live Server in VS Code 
-
 a. Open the project folder in Visual Studio Code.
 b. Install the Live Server extension:
 c. Go to Extensions (Ctrl+Shift+X).
@@ -93,7 +100,6 @@ d. Search for Live Server and install it.
 e. Right-click on 'main.html' file and select "Open with Live Server".
 
 OPTION 3. Open the Project 
-
  a. Open Directly in a Browser
  b. Navigate to the project folder
  c. Double-click on main.html
