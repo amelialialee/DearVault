@@ -187,11 +187,16 @@ document.getElementById('signOutBtn').addEventListener('click', function() {
 });
 
 const welcomePage = `
-<p style="text-align: center; padding: 0 5%;">
-We're so glad you're here! Step into a world where past, present, and future intertwine. Here, you can preserve the moments that matter 
-and share them when the time is right. Whether it’s a heartfelt message, a cherished photo, or a vision for the future, your capsule keeps 
-it safe until the perfect moment arrives.<br>Take your time to explore—this is your story, sealed and protected.
-</p>
+  <h2 class="mainPanelHeader" style="padding: 0 3%; margin-bottom: 3%;">WELCOME</h2>
+  <p style="text-align: center; padding: 0 5%;">
+    We're so glad you're here! Step into a world where past, present, and future intertwine. Here, you can store the moments that matter, 
+    preserve them for tomorrow, and share them when the time is right. Whether it’s a heartfelt message, a photo from a cherished memory, 
+    or a vision for the future, your Time Capsule ensures it stays safe until the perfect moment to open it again. Create your Time Capsule 
+    today, add your memories, and set the date when they will be revealed. This is your story, sealed and protected.
+  </p>
+  <small style="text-align: center; color: grey; font-style: italic;">
+    New user? Need some help? Click on the ' ? ' for help.
+  </small>
 `;
 
 // LOGIN FORM
@@ -452,24 +457,10 @@ function xorEncryptDecrypt(message, key) {
 // Main panel where all content is displayed
 const mainPanel = document.getElementById('mainPanel');
 const titleContainer = document.getElementById('titleContainer'); 
-const defaultMainPanelContent = `
-  <h2 class="mainPanelHeader" style="padding: 0 3%; margin-bottom: 3%;">WELCOME </h2>
-  <p style="text-align: center; padding: 0 5%;">
-    Step into the world of memories, where past, present, and future intertwine. Here, you can store the moments that matter, 
-    preserve them for tomorrow, and share them when the time is right.
-    Whether it’s a heartfelt message, a photo from a cherished memory, or a vision for the future, your Time Capsule ensures it 
-    stays safe until the perfect moment to open it again.
-    Create your Time Capsule today, add your memories, and set the date when they will be revealed. This is your story, 
-    sealed and protected.
-  </p>
-  <small style="text-align: center; color: grey; font-style: italic;">
-    New user? Need some help? Click on the ' ? ' for help.
-  </small>
-`;
 
 // Reset to default (Welcome page) when logo is selected
 titleContainer.addEventListener('click', () => {
-  mainPanel.innerHTML = defaultMainPanelContent; 
+  mainPanel.innerHTML = welcomePage; 
 });
 
 // NOTIFICATIONS: Update User Status
